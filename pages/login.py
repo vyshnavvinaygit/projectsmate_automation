@@ -6,7 +6,6 @@ class LoginPage:
         self.password_input = page.locator("input[name='password']")
         self.login_button = page.get_by_role("button", name="Login")
 
-
     def navigate(self):
         self.page.goto("https://architect-testing.projectsmate.com/login")
 
